@@ -1,0 +1,245 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+/**************************** nav section ******************************/
+.nav-link {
+  font-weight: bold;
+}
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 150%;
+}
+.navbar {
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+/**************************** top section ******************************/
+#title {
+  background-color: #f8f8f8;
+}
+
+h1 {
+
+   /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Ubuntu', sans-serif;
+  size:3rem;
+  line-height: 1.5;
+}
+.viruslogo{
+  width: 90%;
+  padding-left: 0;
+  padding-top: 10%;
+}
+
+.viruslogo1{
+  width: 70%;
+  padding-left: 20px;
+  animation: rotation 30s infinite linear;
+  position: absolute;
+  top: 115%;
+  left:15%;
+
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+.topbut {
+  margin-bottom: 10px;
+}
+
+.container-fluid {
+  padding-left:10%;
+  padding-right:0%;
+  padding-top: 20%;
+  padding-bottom: 15%;
+
+}
+
+.maintil{
+  padding-top: 70px;
+}
+
+/**************************** mid section ******************************/
+.feature {
+  text-align: center;
+}
+#features {
+    z-index:1;
+    background-color: #fff;
+    position: relative;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+
+}
+p {
+  color: #8f8f8f;
+}
+.lol {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 100px;
+  padding-bottom: 100px
+
+}
+.icon {
+  color:#a0a0a0;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #686868;
+}
+
+/************************* testimonials**************************8 */
+
+#testimonials {
+  background-color:#f8f8f8;
+  text-align: center;
+}
+.carousel-item {
+  padding: 17% 15%;
+}
+.testipic {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.testihead {
+  font-family: 'Ubuntu', sans-serif;
+  size:3rem;
+  line-height: 1.5;
+
+}
+.testicon {
+  color:#686868;
+
+}
+.testicon:hover{
+  color:black;
+}
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: black;
+}
+.carousel-indicators .active{
+    background-color:black;
+}
+.carousel-indicators li {
+ background-color: #686868;
+}
+/************************** products **************************************/
+.prodhead {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  size:3rem;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+.parapic {
+  width:50%;
+  margin-left: 100px;
+}
+.workpara {
+  padding-right: 20px;
+}
+#products{
+  margin-bottom: 100px;
+}
+/******************************pricing */
+#pricing {
+  background-color: #dcdcdc;
+  padding: 50px;
+}
+.pricehead {
+  text-align: center;
+  padding-bottom: 60px;
+  padding-top: 40px;
+  font-family: 'Montserrat', sans-serif;
+  size:4rem;
+
+}
+.cardhead {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight:normal;
+}
+.cash {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight:bold;
+}
+.cardb {
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+.blk {
+  margin-top: 50px;
+
+}
+
+/****************************** cta */
+#cta {
+  text-align: center;
+  padding: 10%;
+}
+.down {
+  padding-bottom: 20px;
+}
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #1e2022;
+}
+.footpara {
+  color: white;
+}
+.social-icon {
+  color: white;
+  margin: 20px 10px;
+
+}
+.social-icon:hover {
+  color:#a0a0a0;
+}
+
+
+
+
+ /***************************** mobilefriendly */
+@media (max-width:770px){
+  .viruslogo1{
+    display: none;
+  }
+  .viruslogo {
+    animation: rotation 30s infinite linear;
+  }
+  .mobtit {
+    text-align: center;
+  }
+
+  #products {
+    text-align: center;
+  }
+  .parapic {
+    padding-right: 90px;
+  }
+
+}
