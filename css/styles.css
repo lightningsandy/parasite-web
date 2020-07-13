@@ -13,6 +13,7 @@ body {
 
   padding-top: 20px;
   padding-bottom: 20px;
+  backdrop-filter:blur(20px);
 
 }
 
