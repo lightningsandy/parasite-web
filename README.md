@@ -2,7 +2,6 @@
 
 
 
-<img align="left" alt="HTML5" width="26px" src="/images/favicon.png" />
 
 
 [website]: https://lightningsandy.github.io/parasite-web/
